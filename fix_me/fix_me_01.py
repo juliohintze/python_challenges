@@ -4,3 +4,7 @@
 # user_input = input("Give me a number and I'll halve it: ")
 # result = user_input / 2
 # print("Result:", result)
+
+user_input = int(input("Give me a number and I'll divide it by half: "))
+result = user_input / 2
+print("Result:", result)

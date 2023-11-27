@@ -5,3 +5,7 @@
 # user_input = input("Give me a number, and I'll double it: ")
 # result = int(print(user_input)) * 2
 # print("Result:", result)
+
+user_input = input("Give me a number, and I'll double it: ")
+result = int(user_input) * 2
+print("Result:", result)

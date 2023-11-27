@@ -8,3 +8,11 @@
 #   else:
 #     print("Very good!")
 #     break
+
+while True:
+    user_response = input("Give me a number: ")
+    if not user_response.isnumeric():
+        print("THAT'S NOT A NUMBER!!")
+    else:
+        print("Very good!")
+        break

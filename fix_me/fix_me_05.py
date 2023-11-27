@@ -9,3 +9,10 @@
 # while count <= 12:
 #   print(num, "x", count, "=", num * count)
 #   count += 1
+
+num = input("Give me a number and I'll print its the multiplication table\n")
+count = 1
+
+while count <= 12:
+  print(num, "x", count, "=", int(num) * count)
+  count += 1

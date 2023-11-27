@@ -8,3 +8,9 @@
 # num2 = input("Second number: ")
 # result = num1 + num2
 # print("Result:", result)
+
+print("Give me two numbers and I'll add them together.")
+num1 = input("First number: ")
+num2 = input("Second number: ")
+result = int(num1) + int(num2)
+print("Result:", result)
